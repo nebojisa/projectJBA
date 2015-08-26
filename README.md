@@ -1,2 +1,2 @@
 # projectJBA
-A starter project for JQuery, Bootstrap, Angular project
+A starter project with JQuery, Bootstrap and Angular
