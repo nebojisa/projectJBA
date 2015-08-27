@@ -1,0 +1,24 @@
+{
+  "name": "projectJBA",
+  "description": "A starter project with JQuery, Bootstrap and Angular",
+  "version": "1.0.0",
+  "homepage": "https://github.com/nebojisa/projectJBA",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": ">2.0.0",
+    "bootstrap": ">3.0.0",
+    "angular": ">1.4.0",
+    "angular-route": ">1.4.0",
+    "angular-loader": ">1.4.0",
+    "angular-mocks": ">1.4.0",
+    "angular-ui-router": ">0.2.0",
+    "angular-ui-map": ">0.0.1",
+    "angular-google-maps": ">2.1.0",
+    "angular-ui-bootstrap": ">0.13.0",
+    "angular-ui-validate": ">1.1.0",
+    "html5shiv": ">3.7.0",
+    "lodash": ">3.10.0",
+    "normalize.css": ">3.0.0",
+    "respond": ">1.4.0"
+  }
+}
