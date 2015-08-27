@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="sr" ng-app>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head -->
+
+    <meta name="description" content="">
+    <meta name="google-site-verification" content="...">
+    <title></title>
+    <meta name="keywords" content="">
+    <meta property="og:image" content="">
+    <meta name="robots" content="noindex,nofollow,nosnippet">
+    <meta name="googlebot" content="..., ...">
+
+    <!-- Stilovi / Styles -->
+    <link rel="stylesheet" type="text/css" href="app/components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="app/components/bootstrap/dist/css/docs.min.css"/>
+    <link rel="stylesheet" href="app/components/normalize.css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="app/fonts/fonts.css">
+    <link rel="stylesheet" type="text/css" href="app/css/styles.css">
+
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="app/components/html5shiv/dist/html5shiv.min.js"></script>
+    <script src="app/components/respond/dest/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Struktuirani podaci / Structured data -->
+    <script type="application/ld+json">
+    { "@context" : "http://schema.org",
+      "@type" : "Organization",
+      "name" : "Misevic doo Beograd",
+      "url" : "http://www.misevic.com",
+      "logo": "http://www.misevic.com/app/img/logo.png",
+      "sameAs" : [ "http://www.facebook.com/Misevic",
+        "http://www.twitter.com/Misevic",
+        "http://plus.google.com/Misevic"],
+      "contactPoint" : [
+        { "@type" : "ContactPoint",
+          "telephone" : "+381 6",
+          "contactType" : "Podrška za klijente"
+        } ]
+    }
+    </script>
+</head>
+<body>
+<section class="container">
+    <header>
+
+    </header>
+    <section>
+        {{"Hello world!"}}
+    </section>
+    <footer class="bs-docs-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="bs-docs-social">
+                        <ul class="bs-docs-social-buttons">
+                            <li>
+                                <a href="https://twitter.com/share" class="twitter-share-button" data-via="nesomis">Tweet</a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/nesomis" class="twitter-follow-button">Follow @nesomis</a>
+                            </li>
+                            <li>
+                                <div class="fb-like" data-href="https://www.facebook.com/nebojisa.misevic" data-width="50px" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                                <!--<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fnebojisa.misevic&amp;width&amp;layout=button_count&amp;action=recommend&amp;show_faces=true&amp;share=true&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>-->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <p class="text-center">
+                        Dizajnirali <a href="http://twitter.com/nesomis" target="_blank">Miloš Antonijević </a>i <a href="http://facebook.com/nebojisa.misevic" target="_blank">Nebojiša Mišević.</a>
+                    </p>
+                    <p class="text-center">
+                        Projekat smo sproveli uz pomoć <a href="./tim" target="_blank">članova tima </a> kojima nije bilo teško da danima i noćima prinose kafe, čajeve, sokove i kolače. Na tome im na ovaj način zahvaljujemo.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</section>
+
+<!-- JQuery -->
+<script src="app/components/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="app/components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- AngularJS -->
+<script src="app/components/angular/angular.min.js"></script>
+<!--Angular-route-->
+<script src="app/components/angular-route/angular-route.js"></script>
+<!-- AngularUI -->
+<script src="app/components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<!--Ukljucivanje glavnog Angular modula i kontrolera -->
+<script src="app/js/app.js"></script>
+<script src="app/js/controllers.js"></script>
+<!-- Twitter -->
+<script>window.twttr = (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0],
+            t = window.twttr || {};
+    if (d.getElementById(id)) return t;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+
+    t._e = [];
+    t.ready = function(f) {
+        t._e.push(f);
+    };
+
+    return t;
+}(document, "script", "twitter-wjs"));
+</script>
+<!--Facebook-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/sr_RS/sdk.js#xfbml=1&version=v2.4";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+</body>
+</html>
